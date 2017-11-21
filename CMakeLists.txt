@@ -2,10 +2,13 @@ cmake_minimum_required(VERSION 3.1)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
+set(CMAKE_TOOLCHAIN_FILE "${CMAKE_SOURCE_DIR}/cmake/toolchain.cmake")
+
 include(HunterGate)
 HunterGate(
     URL "https://github.com/ruslo/hunter/archive/v0.19.158.tar.gz"
     SHA1 "7bd94f374bca4eff51292ca6ba029b5d688744db"
+    LOCAL
 )
 
 project(perftest VERSION 0.0.1)
