@@ -1,0 +1,53 @@
+{
+  "context": {
+    "date": "2017-11-21 08:32:13",
+    "num_cpus": 4,
+    "mhz_per_cpu": 3100,
+    "cpu_scaling_enabled": false,
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "readFromString_mean",
+      "iterations": 11798,
+      "real_time": 5.6860440184000217e+04,
+      "cpu_time": 5.6823798618409921e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "readFromString_median",
+      "iterations": 11798,
+      "real_time": 5.6963816873347481e+04,
+      "cpu_time": 5.6930230462790321e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "readFromString_stddev",
+      "iterations": 11798,
+      "real_time": 2.7829917526320179e+02,
+      "cpu_time": 2.7715139749732316e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "readFromStream_mean",
+      "iterations": 1770,
+      "real_time": 3.9553464932951261e+05,
+      "cpu_time": 3.9529891598870046e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "readFromStream_median",
+      "iterations": 1770,
+      "real_time": 3.9582493672894558e+05,
+      "cpu_time": 3.9557821779661009e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "readFromStream_stddev",
+      "iterations": 1770,
+      "real_time": 1.6766750264766381e+03,
+      "cpu_time": 1.6761154461942256e+03,
+      "time_unit": "ns"
+    }
+  ]
+}

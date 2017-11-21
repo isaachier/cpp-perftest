@@ -72,7 +72,7 @@ void readFromStream(benchmark::State& state)
 
 }  // anonymous namespace
 
-BENCHMARK(readFromString)->Arg(10);
-BENCHMARK(readFromStream)->Arg(10);
+BENCHMARK(readFromString);
+BENCHMARK(readFromStream);
 
 BENCHMARK_MAIN()
